@@ -1,7 +1,7 @@
 // Change these to your usernames 
-var githubUserName = 'vksah32'
+var githubUserName = 'vvksh'
 var linkedinUserName = 'vksah'
-var twitterUserName = 'viveksyz'
+var twitterUserName = '1_viveks'
 
 //Default readme filename
 var readmeFile = 'README.md'
@@ -16,7 +16,7 @@ var numRecentResponses = 10;
 var numAllResponses = 100;
 
 //These repos are excluded from the site
-var excluded_repos = ['vksah32.github.io', 'screenshots', 'ontrack_android_app', 'resume', 'foogle', 'blog-posts']
+var excluded_repos = [`${githubUserName}.github.io`, 'screenshots', 'readings', 'ontrack_android_app', 'resume', 'foogle', 'blog-posts']
 
 /**
  * Adds a list of recent posts and project pages on home page
@@ -61,7 +61,7 @@ function fetchProjects (numResponses, projectResponseHandler) {
  * @param {function} projectResponseHandler function to apply to blog posts
  */
 function fetchPosts (numResponses, postResponseHandler) {
-   var getPostEndpoint = `https://api.github.com/repos/${githubUserName}/${blogPostsRepo}/contents?per_page=${numResponses}&sort=updated`
+   var getPostEndpoint = `https://api.github.com/repos/${githubUserName}/${blogPostsRepo}/contents?per_page=${numResponses}&sort=pushed`
    callApi(getPostEndpoint, numResponses, postResponseHandler)
 }
 
