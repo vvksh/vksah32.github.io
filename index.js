@@ -182,7 +182,7 @@ function getPost() {
  * @param {string} filename
  */
 function getDownloadUrl(repoName, filename) {
-    return `https://raw.githubusercontent.com/vksah32/${repoName}/master/${filename}`
+    return `https://raw.githubusercontent.com/${githubUserName}/${repoName}/master/${filename}`
 }
 
 /**
