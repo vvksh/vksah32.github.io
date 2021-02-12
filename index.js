@@ -1,7 +1,7 @@
 // Change these to your usernames 
 var githubUserName = 'vvksh'
 var linkedinUserName = 'vksah'
-var twitterUserName = '1_viveks'
+var twitterUserName = 'v_v_ks'
 
 //Default readme filename
 var readmeFile = 'README.md'
