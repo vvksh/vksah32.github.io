@@ -16,7 +16,7 @@ var numRecentResponses = 10;
 var numAllResponses = 100;
 
 //These repos are excluded from the site
-var excluded_repos = [`${githubUserName}.github.io`, 'screenshots', 'readings', 'ontrack_android_app', 'resume', 'foogle', 'blog-posts']
+var excluded_repos = [`${githubUserName}.github.io`, 'screenshots', 'readings', 'ontrack_android_app', 'resume', 'foogle', 'blog-posts', 'temp-data']
 
 /**
  * Adds a list of recent posts and project pages on home page
